@@ -30,11 +30,6 @@ Take blurry image super-resolution as an example <br/>
 cd deblur_SR && python inference.py
 ```
 
-## Test the model
-Take blurry image super-resolution as an example <br/>
-```
-cd deblur_SR && python inference.py
-```
 
 ## Citation
 ```
