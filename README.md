@@ -53,4 +53,4 @@ cd deblur_SR && python inference.py
 ```
 
 ## Contact
-Any question regarding this work can be addressed to zeyuxiao@mail.ustc.edu.cn or zeyuxiao1997@163.com.
+Any question regarding this work can be addressed to xurk@mail.ustc.edu.cn and zeyuxiao@mail.ustc.edu.cn.
