@@ -1,7 +1,8 @@
 EDPN: Enhanced Deep Pyramid Network for Blurry Image Restoration
 ====
-Ruikang Xu, Zeyu Xiao, Jie Huang, Yueyi Zhang, Zhiwei Xiong. [EDPN: Enhanced Deep Pyramid Network for Blurry Image Restoration](https://arxiv.org). In CVPRW 2021. (Winner of NTIRE Challenge 2021 on Image Deblurring Track 1. Low Resolution) <br/>
+Ruikang Xu, Zeyu Xiao, Jie Huang, Yueyi Zhang, Zhiwei Xiong. [EDPN: Enhanced Deep Pyramid Network for Blurry Image Restoration](https://arxiv.org/abs/2105.04872). In CVPRW 2021. (Winner of NTIRE Challenge 2021 on Image Deblurring Track 1. Low Resolution) <br/>
 
+[arXiv](https://arxiv.org/abs/2105.04872) | [CVF](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Xu_EDPN_Enhanced_Deep_Pyramid_Network_for_Blurry_Image_Restoration_CVPRW_2021_paper.pdf) 
 
 ## Dependencies
 - This repository is based on [[EDVR/old_version]](https://github.com/xinntao/EDVR/tree/old_version), you can install DeformConv by following [[EDVR/old_version]](https://github.com/xinntao/EDVR/tree/old_version)

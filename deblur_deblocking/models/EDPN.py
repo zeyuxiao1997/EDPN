@@ -130,11 +130,11 @@ class PSPA_module(nn.Module):
 
         L2_feat_base = feats_base[1]
         L2_feat_ref = feats_ref[1]
-        L2_feat = self.lrelu(self.L3_conv(self.L3_spa(L2_feat_base, L2_feat_ref)))
+        L2_feat = self.lrelu(self.L2_conv(self.L2_spa(L2_feat_base, L2_feat_ref)))
 
         L1_feat_base = feats_base[0]
         L1_feat_ref = feats_ref[0]
-        L1_feat = self.lrelu(self.L3_conv(self.L3_spa(L1_feat_base, L1_feat_ref)))
+        L1_feat = self.lrelu(self.L1_conv(self.L1_spa(L1_feat_base, L1_feat_ref)))
 
         L3_fea_up = F.interpolate(L3_feat, scale_factor=2, mode='bilinear', align_corners=False)
         L2_cat = self.lrelu(self.L2_conv_up1(torch.cat([L2_feat, L3_fea_up], dim=1)))
